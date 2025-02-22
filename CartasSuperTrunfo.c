@@ -7,7 +7,7 @@
 //Teste larissa
 
 int main() {
-    // Declaração das variáveis para a primeira carta
+    //variáveis para a primeira carta
     char estado1;
     char codigo1[4];
     char nomecidade1[50];
@@ -33,7 +33,7 @@ int main() {
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &pontosTuristicos1);
 
-    // Declaração das variáveis para a segunda carta
+    //variáveis para a segunda carta
     char estado2;
     char codigo2[4];
     char nomecidade2[50];
@@ -42,7 +42,7 @@ int main() {
     float pib2;
     int pontosTuristicos2;
 
-    // Entrada de dados para a segunda carta
+    //dados para a segunda carta
     printf("\nCadastro da Carta 2\n");
     printf("Estado (A-H): ");
     scanf(" %c", &estado2);
@@ -65,8 +65,8 @@ int main() {
     printf("Código: %s\n", codigo1);
     printf("Nome da Cidade: %s\n", nomecidade1);
     printf("População: %d\n", populacao1);
-    printf("Área: %.2f km²\n", area1);
-    printf("PIB: %.2f bilhões de reais\n", pib1);
+    printf("Área: %f km²\n", area1);
+    printf("PIB: %f bilhões de reais\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos1);
 
     printf("\nCarta 2:\n");
@@ -74,8 +74,8 @@ int main() {
     printf("Código: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", nomecidade2);
     printf("População: %d\n", populacao2);
-    printf("Área: %.2f km²\n", area2);
-    printf("PIB: %.2f bilhões de reais\n", pib2);
+    printf("Área: %f km²\n", area2);
+    printf("PIB: %f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
 
     return 0;
