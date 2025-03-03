@@ -78,6 +78,14 @@ int main() {
     printf("\n%d", pibPerCapita1 > pibPerCapita2);
     printf("\n%d", superPoder1 > superPoder2);
 
+    if (populacao1 > populacao2) {
+        printf("Resultado: Carta 1 (%s) venceu!\n", nomecidade1);
+    } else if (populacao2 > populacao1) {
+        printf("Resultado: Carta 2 (%s) venceu!\n", nomecidade2);
+    } else {
+        printf("Resultado: Empate!\n");
+    }
+
     return 0;
 }
 
